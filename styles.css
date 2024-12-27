@@ -1,0 +1,55 @@
+/* Centering the heading */
+h1 {
+    text-align: center;
+}
+  
+/* Styling the container where markers will be placed */
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+ 
+/* General styling for markers */
+.marker {
+    width: 200px;
+    height: 25px;
+    margin: 10px auto;
+}
+  
+/* Styling for the cap of the marker */
+.cap {
+    width: 60px;
+    height: 25px;
+}
+  
+/* Styling for the sleeve of the marker */
+.sleeve {
+    width: 110px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 10px double rgba(0, 0, 0, 0.75);
+}
+  
+/* Ensuring both cap and sleeve are inline-block elements */
+.cap, .sleeve {
+    display: inline-block;
+}
+  
+/* Red marker styles with gradient and box-shadow */
+.red {
+    background: linear-gradient(rgb(122, 74, 14), rgb(245, 62, 113), rgb(162, 27, 27));
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+}
+  
+/* Green marker styles with gradient and box-shadow */
+.green {
+    background: linear-gradient(#55680D, #71F53E, #116C31);
+    box-shadow: 0 0 20px 0 #3B7E20CC;
+}
+  
+/* Blue marker styles with gradient and box-shadow */
+.blue {
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    box-shadow: 0 0 20px 0 blue;
+}
+  
